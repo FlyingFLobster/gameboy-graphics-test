@@ -1,0 +1,12 @@
+-mjwx
+-i gbgraphicstest.ihx
+-b _CODE = 0x0200
+-b _DATA = 0xc0a0
+-k C:\Users\FlyingLobster\Desktop\Gameboy Development\GBDK\gbdk-n-master\bin\..\lib
+-k C:\Program Files\SDCC\bin\..\lib\gbz80
+-l gb.lib
+-l gbz80
+C:\Users\FlyingLobster\Desktop\Gameboy Development\GBDK\gbdk-n-master\bin\..\lib\crt0.rel
+gbgraphicstest.rel
+
+-e
